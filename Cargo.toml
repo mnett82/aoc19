@@ -1,0 +1,13 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+authors = ["Michael Nett <mnett82@gmail.com>"]
+edition = "2018"
+name = "a2019"
+version = "0.1.0"
+
+[dependencies]
+
+[[bin]]
+name = "p1"
+path = "src/p1.rs"
